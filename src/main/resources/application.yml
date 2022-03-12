@@ -1,0 +1,11 @@
+#STAG environment
+
+app:
+  message: This is the property file for the ${spring.application.name} specified to STAG Environment
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/teste
+    username: root
+    password: root
